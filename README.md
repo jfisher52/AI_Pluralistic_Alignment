@@ -5,7 +5,7 @@ This repository contains the code and the scripts to reproduce the experiments f
 In this paper we explore the current methods and frameworks of value pluralism in AI systems. We identify and formalize three ways to operationalize the concept of pluralism in AI systems: 1) Overton pluralism presents a spectrum of reasonable responses; 2) Steerable pluralism steers models to reflect certain perspectives; and 3) Superpositional pluralism measures how well calibrated a model is to a given population. From these definitions we conjecture that current LLM alignment techniques reduce superpositional pluralism w.r.t. the population of internet users. 
 
 <p align="center">
-<img src="ai_pluralism_defn" width="275">
+<img src="ai_pluralism_fig" width="275">
 </p>
 
 To test the extent to which our conjecture holds, we test a suite of vanilla pretrained LLMs compared to their partner “aligned” (RLHFed, finetuned) LLMs on two diverse multiple choices datasets: GlobalOpinionQA, an aggregation of representative, cross-national surveys designed to capture opinions on global issues (Durmus et al., 2023a), and the Machine Personality Inventory (MPI), a collection of 120 questions designed to evaluate human personality traits (Jiang et al., 2022a). We look at the subset of GlobalQA with responses for Japan and the US. We compare model distributions, averaged over 5 samples, to the human target distributions using Jensen-Shannon distance.
