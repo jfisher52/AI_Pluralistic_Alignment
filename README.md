@@ -1,5 +1,5 @@
 # A Roadmap to Pluralistic Alignment 
-This repository contains the code and the scripts to reproduce the experiments from the paper
+This repository contains the code and the scripts to reproduce the experiments from the paper.
 [A Roadmap to Pluralistic Alignment](). 
 
 In this paper we explore the current methods and frameworks of value pluralism in AI systems. We identify and formalize three ways to operationalize the concept of pluralism in AI systems: 1) Overton pluralism presents a spectrum of reasonable responses; 2) Steerable pluralism steers models to reflect certain perspectives; and 3) Superpositional pluralism measures how well calibrated a model is to a given population. 
@@ -37,7 +37,7 @@ pip install -r requirement.txt
 ## Datasets
 We use two different datasets, GlobalOpinnionQA (GlobalQA) (Durmus et al., 2023a) and the Machine Personality Inventory (MPI) (Jiang et al., 2022a). The GlobalQA dataset is downloaded from huggingface datasets using the name `Anthropic/llm_global_opinions`. This is done automatically in the `create_model_response_globalqa` file. The MPI dataset is already uploaded under `data\mpi_questions.csv`.
 
-To calculate the human distribution for the MPI dataset, you do need to download `mpi_human_resp.csv` from [this google drive](https://drive.google.com/file/d/1MOE4y_nGJiYU_vxCqnWSiYIKCk-dqPJE/view?usp=sharing) and place this file in the `data` folder. This is data comes from the Johnson, J. A. (2014) studey "Measuring thirty facets of the five factor model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality". 
+To calculate the human distribution for the MPI dataset, you do need to download `mpi_human_resp.csv` from [this google drive](https://drive.google.com/file/d/1MOE4y_nGJiYU_vxCqnWSiYIKCk-dqPJE/view?usp=sharing) and place this file in the `data` folder. This is data comes from the Johnson, J. A. (2014) study "Measuring thirty facets of the five factor model with a 120-item public domain inventory: Development of the IPIP-NEO-120. Journal of Research in Personality". 
 
 ## Experimental Pipeline
 Each experiment consists of the following two steps:
