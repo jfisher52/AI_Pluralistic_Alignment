@@ -15,7 +15,7 @@ random.seed(1)
 
 from datasets import load_dataset
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = <insert openai key>
 openai.api_key = OPENAI_API_KEY
 
 def get_gpt3_output(query, model='babbage-002', temperature=1.0, max_tokens=36, top_p=0.0, num_logprobs=100):
@@ -63,7 +63,7 @@ if __name__ == "__main__":
     parser.add_argument("--model", type=str, default="gpt-3.5-turbo_mpi") # used for saving purposes
     parser.add_argument("--data_dir", type=str, default="data/mpi_questions.csv")
     parser.add_argument("--save_dir", type=str, default="output/mpi/")
-    parser.add_argument("--cache_dir", type=str, default="/net/nfs.cirrascale/mosaic/ximinglu/cache")
+    parser.add_argument("--cache_dir", type=str, default="./cache")
     args = parser.parse_args()
     print(args)
 
