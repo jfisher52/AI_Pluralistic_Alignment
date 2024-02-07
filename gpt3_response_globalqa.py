@@ -1,4 +1,4 @@
-# This file extracts the probability distribution for models given the GlobaQA Dataset
+# This file extracts the probability distribution for GPT3 models given the GlobaQA Dataset
 # We use in-context learning with 3 examples to help guide the output to just be the answer choice
 # Currently only uses GlobalQA questions which have a corresponding human response probability distribution for the United States and Japan (n = 741)
 
@@ -15,7 +15,7 @@ random.seed(1)
 
 from datasets import load_dataset
 
-OPENAI_API_KEY = <add openai api key>
+OPENAI_API_KEY = <add openai api key> #need to add this
 openai.api_key = OPENAI_API_KEY
 
 def get_gpt3_output(query, model='babbage-002', temperature=1.0, max_tokens=36, top_p=0.0, num_logprobs=100):

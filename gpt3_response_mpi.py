@@ -15,7 +15,7 @@ random.seed(1)
 
 from datasets import load_dataset
 
-OPENAI_API_KEY = <insert openai key>
+OPENAI_API_KEY = <insert openai key> #need to add thi
 openai.api_key = OPENAI_API_KEY
 
 def get_gpt3_output(query, model='babbage-002', temperature=1.0, max_tokens=36, top_p=0.0, num_logprobs=100):
