@@ -1,4 +1,4 @@
-# This file extracts the probability distribution for models given the MPI (Big 5 personality)
+# This file extracts the probability distribution for GPT3 models given the MPI (Big 5 personality)
 # We use in-context learning with 3 examples to help guide the output to just be the answer choice
 
 import openai
