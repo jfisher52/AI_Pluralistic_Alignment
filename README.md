@@ -47,6 +47,8 @@ Each experiment consists of the following two steps:
 ```bash
 python create_model_response_mpi.py --model-name meta-llama/Llama-2-7b-hf --model llama2_7b_mpi --huggingface_token <insert your token>
 ```
+Note: If you want to use gpt3 models (OpenAI), the API/calculation of probabilites is bit different (see Appendix for more details). For this reason, we made a seperate code in `create_gpt3_response_globalqa.py` or `create_gpt3_response_mpi.py`. Please use these files for creating responses from any OpenAI model.
+
 2. Compare Model and Human Distributions: Use either the `analyze_data_globalqa.ipynb` or `analyze_data_mpi.ipynb` to calculate the Jensen-Shannon distance between each model (pre and post alignment) to the human distributions. As well as the "shuffled" distributions results (described in Appendix B of the paper) and the entropy. We also include code to visualize the results for a specific question. ***Note the only change needed to run these files is the output directory files (in the first code block).*** 
 
 ## Citation
