@@ -54,7 +54,14 @@ Note: If you want to use gpt3 models (OpenAI), the API/calculation of probabilit
 ## Citation
 If you find this repository useful, or you use it in your research, please cite:
 ```
-
+@misc{sorensen2024roadmap,
+      title={A Roadmap to Pluralistic Alignment}, 
+      author={Taylor Sorensen and Jared Moore and Jillian Fisher and Mitchell Gordon and Niloofar Mireshghallah and Christopher Michael Rytting and Andre Ye and Liwei Jiang and Ximing Lu and Nouha Dziri and Tim Althoff and Yejin Choi},
+      year={2024},
+      eprint={2402.05070},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
 ```
     
 ## Acknowledgements
