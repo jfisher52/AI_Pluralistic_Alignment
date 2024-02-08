@@ -8,9 +8,9 @@ In this paper we explore the current methods and frameworks of value pluralism i
 <img src="ai_pluralism_fig.png" width="275">
 </p>
 
-***Conjecture: From these definitions we conjecture that current LLM alignment techniques reduce superpositional pluralism w.r.t. the population of internet users.*** 
+***Hypothesis: From these definitions we conjecture that current LLM alignment techniques reduce distributional pluralism w.r.t. the population of internet users.*** 
 
-To test the extent to which our conjecture holds, we test a suite of vanilla pretrained LLMs compared to their partner “aligned” (RLHFed, finetuned) LLMs on two diverse multiple choices datasets: GlobalOpinionQA, an aggregation of representative, cross-national surveys designed to capture opinions on global issues (Durmus et al., 2023a), and the Machine Personality Inventory (MPI), a collection of 120 questions designed to evaluate human personality traits (Jiang et al., 2022a). We look at the subset of GlobalQA with responses for Japan and the US. We compare model distributions, averaged over 5 samples, to the human target distributions using Jensen-Shannon distance.
+To test the extent to which our hypothesis holds, we test a suite of vanilla pretrained LLMs compared to their partner “aligned” (RLHFed, finetuned) LLMs on two diverse multiple choices datasets: GlobalOpinionQA, an aggregation of representative, cross-national surveys designed to capture opinions on global issues (Durmus et al., 2023a), and the Machine Personality Inventory (MPI), a collection of 120 questions designed to evaluate human personality traits (Jiang et al., 2022a). We look at the subset of GlobalQA with responses for Japan and the US. We compare model distributions, averaged over 5 samples, to the human target distributions using Jensen-Shannon distance.
 
 In this repo, we provide code which implements these two experiments.
 
