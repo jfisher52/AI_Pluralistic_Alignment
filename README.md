@@ -1,6 +1,6 @@
 # A Roadmap to Pluralistic Alignment 
 This repository contains the code and the scripts to reproduce the experiments from the paper.
-[A Roadmap to Pluralistic Alignment](). 
+[A Roadmap to Pluralistic Alignment](https://arxiv.org/abs/2402.05070). 
 
 In this paper we explore the current methods and frameworks of value pluralism in AI systems. We identify and formalize three ways to operationalize the concept of pluralism in AI systems: 1) Overton pluralism presents a spectrum of reasonable responses; 2) Steerable pluralism steers models to reflect certain perspectives; and 3) Superpositional pluralism measures how well calibrated a model is to a given population. 
 
